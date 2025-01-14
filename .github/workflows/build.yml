@@ -23,4 +23,4 @@ jobs:
       - name: Run Tests
         run: mvn test
       - name: unit tests
-          run: mvn -B test --file pom.xml
+        run: mvn -B test --file pom.xml
